@@ -1,3 +1,41 @@
+### **GETTING STARTED**
+------------------------
+
+### **BEFORE STARTING A TASK.**
+1. First clone the repository.
+   ```
+   git clone
+   ```
+2. Checkout main branch
+   ```
+   git checkout main
+   ```
+3. Create a new branch following the format _ec-t-[issue-number]-[3-to-5-words-describing-the-task]_ eg _ec-t-36-create-all-atoms_
+   ```
+   git checkout -b ec-t-36-create-all-atoms
+   ```
+
+### **COMMITTING YOUR CHANGES**
+1. Add your changes to staging area to track your changes by running the **git add** command eg to add all modified files run
+   ```
+   git add .
+   ``` 
+2. Commit your changes by running the **git commit** command. Your commit message must follow the format EC-T-[issue-number] | Actual message e.g. _git commit -m "EC-T-36 | Created all buttons"_
+   ```
+   git commit -m "EC-T-36 | Created all buttons"
+   ```
+
+### **WHEN YOU HAVE COMPLETED A TASK**
+1. Push your changes to remote by running the git push command
+   ```
+   git push origin <branch-name>
+   ```
+2. Go to GitHub and make a Pull Request (PR) to main. 
+3. Request review
+
+
+
+### **RUNNING THE CODE**
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
