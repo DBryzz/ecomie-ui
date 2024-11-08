@@ -1,6 +1,5 @@
 import type {Metadata} from "next";
 import {Inter} from "next/font/google";
-import "./globals.css";
 import {cn} from "@/src/lib/utils";
 
 const inter = Inter({subsets: ["latin"]});
@@ -15,7 +14,7 @@ export default function RootLayout({children,}: Readonly<{
 }>) {
     return (
         <html lang="en">
-        <body className={cn(inter.className, 'antialiased bg-deep-forest-green-100 flex items-center justify-center text-white')}>
+        <body className={cn(inter.className, 'antialiased flex items-center justify-center text-white')}>
         <main className='max-w-[1628px] pr-4 pl-4 w-full min-h-screen'>{children}</main>
         </body>
         </html>
